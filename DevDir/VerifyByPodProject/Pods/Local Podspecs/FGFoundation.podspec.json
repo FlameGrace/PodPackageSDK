@@ -1,0 +1,40 @@
+{
+  "name": "FGFoundation",
+  "version": "0.0.7",
+  "summary": "A short description of FGFoundationSDK.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "flamegrace": "flamegrace@hotmail.com"
+  },
+  "homepage": "https://github.com/flamegrace/FGFoundationSDK",
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": "UIKit",
+  "libraries": [
+    "c++"
+  ],
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_libraries": "Libs/*.a",
+  "vendored_frameworks": "Vendors/*.framework",
+  "resources": [
+    "Resource/**/*.bundle"
+  ],
+  "subspecs": [
+    {
+      "name": "Libs",
+      "source_files": "Libs/*.*{a}"
+    },
+    {
+      "name": "Headers",
+      "public_header_files": "Headers/**/*.h",
+      "source_files": "Headers/**/*.h"
+    }
+  ]
+}

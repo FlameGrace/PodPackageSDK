@@ -1,0 +1,6 @@
+framework module FGOuterSDK {
+  umbrella header "FGOuterSDK.h"
+
+  export *
+  module * { export * }
+}

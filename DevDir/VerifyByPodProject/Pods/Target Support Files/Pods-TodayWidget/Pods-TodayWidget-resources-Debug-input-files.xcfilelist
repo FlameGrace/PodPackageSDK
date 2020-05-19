@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TodayWidget/Pods-TodayWidget-resources.sh
+${PODS_ROOT}/../../../SDK/FGFoundation/Resource/FGFoundationBundle.bundle
+${PODS_ROOT}/../../../SDK/FGExtension/Resource/FGExtensionBundle.bundle

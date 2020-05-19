@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+pod 'FGFoundation',:path => '../../SDK/FGFoundation'
+
+target 'DemoProject' do
+  pod 'FGApplication',:path => '../../SDK/FGApplication'
+end
+
+target 'TodayWidget' do
+  pod 'FGExtension',:path => '../../SDK/FGExtension'
+end
+

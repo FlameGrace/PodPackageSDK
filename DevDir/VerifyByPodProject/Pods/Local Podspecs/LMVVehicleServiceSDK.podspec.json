@@ -1,0 +1,100 @@
+{
+  "name": "LMVVehicleServiceSDK",
+  "version": "0.0.3",
+  "summary": "A short description of LMVVehicleServiceSDK.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leapmotor01": "cheng_fangfang@leapmotor.com"
+  },
+  "homepage": "https://github.com/leapmotor01/LMVVehicleServiceSDK",
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "VideoToolbox",
+    "CoreMedia",
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreBluetooth",
+    "Intents",
+    "IntentsUI",
+    "WebKit",
+    "Photos",
+    "MapKit",
+    "MessageUI",
+    "JavaScriptCore",
+    "LocalAuthentication"
+  ],
+  "libraries": [
+    "bz2",
+    "z.1",
+    "iconv",
+    "resolv",
+    "c++"
+  ],
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_libraries": "Libs/*.a",
+  "vendored_frameworks": "Vendors/*.framework",
+  "resources": [
+    "Resource/**/*.bundle"
+  ],
+  "dependencies": {
+    "SVGKit": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "FCUUID": [
+      "1.3.1"
+    ],
+    "SDWebImage": [
+
+    ],
+    "AMapFoundation": [
+
+    ],
+    "AMapSearch": [
+
+    ],
+    "AMapNavi": [
+      "7.2.0"
+    ],
+    "AMapLocation": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "CocoaHTTPServer": [
+
+    ],
+    "MQTTClient": [
+
+    ],
+    "AFNetworking": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Libs",
+      "source_files": "Libs/*.*{a}"
+    }
+  ]
+}

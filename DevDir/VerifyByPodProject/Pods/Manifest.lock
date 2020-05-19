@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FGApplication (0.0.7):
+    - FGApplication/Headers (= 0.0.7)
+    - FGApplication/Libs (= 0.0.7)
+    - FGFoundation
+    - NetWorkStateManager
+  - FGApplication/Headers (0.0.7):
+    - FGFoundation
+    - NetWorkStateManager
+  - FGApplication/Libs (0.0.7):
+    - FGFoundation
+    - NetWorkStateManager
+  - FGExtension (0.0.7):
+    - FGExtension/Headers (= 0.0.7)
+    - FGExtension/Libs (= 0.0.7)
+    - FGFoundation
+  - FGExtension/Headers (0.0.7):
+    - FGFoundation
+  - FGExtension/Libs (0.0.7):
+    - FGFoundation
+  - FGFoundation (0.0.7):
+    - FGFoundation/Headers (= 0.0.7)
+    - FGFoundation/Libs (= 0.0.7)
+  - FGFoundation/Headers (0.0.7)
+  - FGFoundation/Libs (0.0.7)
+  - NetWorkStateManager (0.0.4):
+    - AFNetworking
+
+DEPENDENCIES:
+  - FGApplication (from `../../SDK/FGApplication`)
+  - FGExtension (from `../../SDK/FGExtension`)
+  - FGFoundation (from `../../SDK/FGFoundation`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - NetWorkStateManager
+
+EXTERNAL SOURCES:
+  FGApplication:
+    :path: "../../SDK/FGApplication"
+  FGExtension:
+    :path: "../../SDK/FGExtension"
+  FGFoundation:
+    :path: "../../SDK/FGFoundation"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FGApplication: 27ee101a91a20fe55eb2bbdf41167d777b3a4cdd
+  FGExtension: 31f7485fa1a5fc4519ab65d35eb9c8b09ac05f59
+  FGFoundation: 79f174b3463304a7caf1b3cd0e8bf435f4d6d9bb
+  NetWorkStateManager: 8d07ec91280cc59b314c32f3a9ecc817696d2ac0
+
+PODFILE CHECKSUM: 86275aa262157553331fa4bfd91228c868f164e7
+
+COCOAPODS: 1.9.1
